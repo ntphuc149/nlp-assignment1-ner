@@ -5,8 +5,8 @@ BiLSTM/GRU/RNN + GloVe-Twitter + char-CNN + casing features + CRF, implemented i
 ## Run on Kaggle
 Enable GPU and Internet (Settings), then in a notebook:
 ```
-!git clone https://github.com/ntphuc149/<REPO>.git
-%cd <REPO>
+!git clone https://github.com/ntphuc149/nlp-assignment1-ner.git
+%cd nlp-assignment1-ner
 !python 115522605.py --mode ablation   # architecture comparison -> outputs/ablation.csv
 !python 115522605.py --mode final      # ensemble -> outputs/result.txt, dev_results.json, training_curves.png
 ```
